@@ -9,9 +9,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading models
-diabetes_model = pickle.load(open('C:/internship/script/sav files/diabetes_model.sav', 'rb'))
-heart_disease_model = pickle.load(open('C:/internship/script/sav files/heart_diseaseLR.sav', 'rb'))
-parkinson_model = pickle.load(open('C:\internship\script\sav files\ParkinsonsSVM.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_diseaseLR.sav', 'rb'))
+parkinson_model = pickle.load(open('ParkinsonsSVM.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
